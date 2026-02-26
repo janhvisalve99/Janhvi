@@ -1,0 +1,254 @@
+body 
+{
+    background-color: rgb(19 18 18 / 89%);
+
+}
+
+#header{
+    height: 651px;
+    width: 1188px;
+    position: absolute;
+    top: -6px;
+    left: 0px;
+}
+.hpage
+{
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+#navhome
+{
+    color: aliceblue;
+    display: inline;
+    font-family: ubuntu;
+    font-size: 16px;
+    position: absolute;
+    left: 844px;
+}
+
+#navhome:hover
+{
+    color: rgb(248, 71, 47);
+}
+
+#navprojects
+{
+    color: aliceblue;
+    display: inline;
+    font-family: ubuntu;
+    font-size: 16px;
+    position: absolute;
+    left: 927px;
+}
+
+#navprojects:hover
+{
+    color: rgb(248, 71, 47) ;
+}
+
+#navaboutus
+{
+    color: aliceblue;
+    display: inline;
+    font-family: ubuntu;
+    font-size: 16px;
+    position: absolute;
+    left: 1040px;
+}
+
+#navaboutus:hover
+{
+    color: rgb(248, 71, 47) ;
+}
+
+#navcontact
+{
+    color: aliceblue;
+    display: inline;
+    font-family: ubuntu;
+    font-size: 16px;
+    position: absolute;
+    left: 1152px;
+}
+
+#navcontact:hover
+{
+    color: rgb(248, 71, 47) ;
+}
+
+.container
+{
+ border-radius: 20px;
+ height: 180px;
+ width: 400px;
+ padding: 0px;
+}
+
+#coverpage
+{height: 632px;
+    width: 420px;
+    border-radius: 218px;
+    padding: 9px;
+    left: 690px;
+    top: 79px;
+    position: absolute
+}
+
+.fa 
+{
+ padding: 20px;
+ font-size: 30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+ position: absolute;    
+ right: 50px;
+
+}
+.fa-facebook
+{
+    color: white;
+    position: absolute;
+    top: 613px;
+    right: 887px;
+ }
+.fa-twitter
+{ 
+    color: white;
+    position: absolute;
+    top: 613px;
+    right: 825px;
+}
+.fa-linkedin 
+ { 
+   color: white;
+    position: absolute;
+    top: 613px;
+    right: 759px;
+ }
+.fa-instagram
+    {
+     color: white;
+    position: absolute;
+    top: 613px;
+    right: 695px;
+    }
+.fa-facebook:hover
+    {
+     opacity: 0.8;
+     color: blue; 
+    }
+.fa-twitter:hover
+    {
+     opacity: 0.8;
+     color: rgb(62, 168, 238); 
+    }
+.fa-linkedin:hover
+    {
+     opacity: 0.8;
+     color: rgb(38, 80, 158); 
+    }
+.fa-instagram:hover
+    {
+     opacity: 0.8;
+     color: rgba(250, 49, 160, 0.897); 
+    } 
+
+#name
+{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 232px;
+    left: 199px;
+    color: aliceblue;
+    white-space: nowrap;
+}
+
+#name2
+    {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 78px;
+    position: absolute;
+    top: 196px;
+    left: 196px;
+    color: rgb(250, 235, 102);
+    white-space: nowrap;
+    }
+
+#content
+{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 398px;
+    left: 207px;
+    color: rgb(163, 158, 158);
+    width: 561px;
+}
+
+
+.arc-button 
+{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    right: -98px;
+    top: 609px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.arc-button::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #ffffff; 
+    border-right-color: transparent; 
+    border-radius: 50%;
+    z-index: -1; 
+    transition: all 0.3s ease;
+}
+
+.button-text {
+    margin-right: 15px;
+    margin-left: 20px; 
+}
+
+.arrow {
+    font-size: 1.4rem;
+    transition: transform 0.3s ease;
+}
+
+.arc-button:hover
+{
+    color: #c5b843; 
+}
+
+.arc-button:hover::before {
+
+    border-color: #e0c38c;
+    border-right-color: transparent;
+
+}
+
+.arc-button:hover .arrow {
+    transform: translateX(10px);
+}
+
+
+
